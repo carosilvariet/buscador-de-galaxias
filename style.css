@@ -1,0 +1,38 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+.result-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  max-height: 400px;
+  overflow-y: scroll;
+
+}
+
+.result-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.result-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.result-card p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #777;
+}
+
+.result-card .date-created {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #aaa;
+}
